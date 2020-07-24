@@ -1,0 +1,91 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+
+ 	{"tag": "rate",
+         "patterns": ["What is death rate or fatality rate of the disease?","What is death rate or fatality rate of coronavirus?"],
+         "responses": ["The fatality rate of covid-19 is less than 3%"],
+         "context": [""]
+        },
+	{"tag": "pet",
+         "patterns": ["Can my pet animal spread the disease?"," Can cats and dogs spread the disease?"],
+         "responses": ["No evidence exists currently to prove that the novel coronavirus (nCoV) can spread from pet animals such as dogs and cats to humans."],
+         "context": [""]
+        },
+	{"tag": "vaccine",
+         "patterns": ["What are the vaccines available for coronvirus?","Which vaccines are approved to treat the disease?","What is the cure for the disease?"],
+         "responses": ["No vaccines have been approved for coronavirus as yet, while few are being studied for development."],
+         "context": [""]
+        },
+
+	{"tag": "pass",
+         "patterns": ["Can I move or travel from one state to another?","What is the  procedure for interstate movement?","I am stuck. How can I go to my native place?"],
+         "responses": ["For interstate movement e-pass is mandated approved by the district collector. You can apply for e-pass in following site."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "coronavirus",
+         "patterns": ["What is coronavirus?","Can you please tell me about coronavirus?","I would like to know about coronavirus"],
+         "responses": ["Coronaviruses are a large family of viruses which may cause illness in animals or humans.In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19."],
+         "context": [""]
+        },
+        {"tag": "covid",
+         "patterns": ["What is covid-19?", "What is novel coronavirus"],
+         "responses": ["COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019. COVID-19 is now a pandemic affecting many countries globally."],
+         "context": [""]
+        },
+        {"tag": "symptom",
+         "patterns": ["What are the symptoms of covid-19?"," How does a coronavirus affected person feels?" ],
+         "responses": ["mild to severe respiratory illness, cough, difficulty in breathing, fever, muscle pain, sore throat, headache, loss of taste or smell"],
+         "context": [""]
+        },
+        {"tag": "spread",
+         "patterns": ["How  does covid-19 spread?","Does coronavirus spreads?","How does covid-19 transmits?","Does covid -19 transmits from one person to another?","What is the medium of transmission for covid-19?" ],
+         "responses": ["Covid-19 spreads primarily from person to person through small droplets from the nose or mouth, which are expelled when a person with COVID-19 coughs, sneezes, or speaks. A person when exposed to covid-19 can develop its symptoms within 14 days."],
+         "context": [""]
+        },
+        {"tag": "precautions",
+         "patterns": ["What are the prevention steps in covid-19?","What are precaution or prevention methods of disease or coronavirus"," How can I protect myself from the disease?"," Can you please help me out with precautionary measure?" ],
+         "responses": ["Wash your hands often with soap and water or clean them with an alcohol-based sanitizer for about 20 seconds.Maintain social distancing and avoid social gathering.Wear masks in public.Avoid touching eyes, nose and mouth.Clean and disinfect your surroundings."],
+         "context": [""]
+        },
+        {"tag": "first",
+         "patterns": ["When did the disease first started in india?","What is the first covid-19 case in india?","Where was first covid -19 death reported?"],
+         "responses": ["India reported the first confirmed case of the coronavirus infection on 30 January 2020 in the state of Kerala. The affected had a travel history from Wuhan, China"],
+         "context": [""]
+        },
+        {"tag": "helpline",
+         "patterns": ["What to do if I suspect myself to be attacked by covid-19?","What to do if I get corona virus symptoms?","What to do if my relatives, parents or neighbours get coronavirus symptoms?","What is covid-19 helpline number?" ],
+         "responses": ["Central Helpline Number for corona-virus: - +91-11-23978046"],
+         "context": [""]
+        },
+        {"tag": "statistics",
+         "patterns": ["What is the current statistics of coronavirus cases?","How many are covid infected in my district, area, country or state","how many recovered, active dead and diseased are there in my area"],
+         "responses": ["corona virus statistics"],
+         "context": [""]
+        },
+	{"tag": "setu",
+         "patterns": ["What is arogya setu app?","Am I safe?","How to analysize my risk level","How to do contact tracing?","Was I in contact with anyone who texted coronavirus positive?"],
+         "responses": ["Aarogya Setu an Indian open-source mobile app, developed by the National Informatics Centre under the Ministry of Electronics and Information Technology (MeitY). It is used for Contact tracing, Syndromic mapping and Self-assessment. It is available at Google Play and App Store"],
+         "context": [""]
+        },
+	{"tag": "donate",
+         "patterns": ["Can I contribute to nation fighting against disease coronavirus?","How can I donate for the nation?"],
+         "responses": ["You can contribute to nation in its fight against the deadly disease by giving donation or working as volunteers. For that, visit the site: https://www.pmcares.gov.in/en/"],
+         "context": [""]
+        }
+
+   ]
+}
